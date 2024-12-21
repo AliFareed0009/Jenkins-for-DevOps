@@ -16,7 +16,7 @@ This Repository is made to practice Jenkins to implement daily life scenarios of
 | `Python_Flask_App` | `Python Application` | A simple application which show health of the server |
 
 
- ![Jenkins Cycle](https:///home/ali-fareed/Ali/Devops/Jenkins/Images/jenkins cycle.png)
+ ![Jenkins Cycle](https://github.com/AliFareed0009/Jenkins-for-DevOps/blob/81f57bc114d9e76d65674ce7f78e2f028d9cd78a/Images/jenkins%20cycle.png)
 
 
 # The Following are topics covered in this Repository
@@ -65,34 +65,34 @@ and deployment. Jenkins allows you to define and manage these stages, ensuring t
 
 ### Agent: 
 - Specifying the execution environment for the pipeline, such as a specific Jenkins node or a container.
-    Agents allow pipelines to run on designated resources, providing control over where each stage or step executes.
+  - Agents allow pipelines to run on designated resources, providing control over where each stage or step executes.
 
 
 ## Building Blocks of Declarative Pipelines:
 ### Steps: 
 - Overview of commonly used built-in steps for actions like code checkout, building, testing, and deployment.
-    Discuss steps like git, sh, npm, docker, JUnit, archive, deploy, etc.
+  - Discuss steps like git, sh, npm, docker, JUnit, archive, deploy, etc.
 - Environment variables: Using environment variables to store and access information throughout the pipeline.
-    Explain how to define and use environment variables within the pipeline script.
-    Discuss the use of environment variables for storing credentials, build numbers, and other useful data.
+  - Explain how to define and use environment variables within the pipeline script.
+  - Discuss the use of environment variables for storing credentials, build numbers, and other useful data.
 - Parameters: Defining parameters to make pipelines more flexible and customizable.
-    Discuss different parameter types (e.g., string, boolean, choice) and their usage.
-    Explain how to prompt users for input and use parameter values within the pipeline script.
+  - Discuss different parameter types (e.g., string, boolean, choice) and their usage.
+  - Explain how to prompt users for input and use parameter values within the pipeline script.
 - Post actions: Configuring post-build actions, such as sending notifications or publishing reports.
-    Explain how to use the post block to define actions that execute after the pipeline completes.
-    Discuss actions like always, success, failure, unstable, email, junit, slack, etc.
+  - Explain how to use the post block to define actions that execute after the pipeline completes.
+  - Discuss actions like always, success, failure, unstable, email, junit, slack, etc.
 
 # Shared Libraries
 - Pipeline has support for creating "Shared Libraries" which can be defined in external source control repositories and loaded into existing Pipelines.
 
- ![Jenkins Shared library](https:///home/ali-fareed/Ali/Devops/Jenkins/Images/jenkins shared library.png)
+ ![Jenkins Shared library](https://github.com/AliFareed0009/Jenkins-for-DevOps/blob/81f57bc114d9e76d65674ce7f78e2f028d9cd78a/Images/jenkins%20shared%20library.png)
 
 # User Management in Jenkins ( Role Based )
 - By default, when you create a user in Jenkins, it can access almost everything. In this guide, we will cover how you can create fine-grained roles for proper access control to Jenkins Server. To manage users and roles, you need to have the necessary administrative privileges. Here are the steps to manage users and roles in Jenkins:
 
 - Create new user: navigate to Jenkins Dashboard → Manage Jenkins → Users → Create User. Enter the user name, password, full name and email-address and then click Create User button.
 
-  ![user role 1](https:///home/ali-fareed/Ali/Devops/Jenkins/Images/jenkins shared library.png)
+  ![user role 1](https://github.com/AliFareed0009/Jenkins-for-DevOps/blob/81f57bc114d9e76d65674ce7f78e2f028d9cd78a/Images/User%20roles/1.%20create%20user.webp)
 
 - Download and install Role-based Authorization Strategy plugin: goto Manage Jenkins → Plugins → Available plugins and search for Role in the search box and in the dropdown list, select Role-based Authentication Strategy plugin, proceed by clicking on Install without restart.
 
@@ -139,6 +139,7 @@ Global roles → add aashish and naba user to the global roles and assign the em
 
 # Email Notification on Pipeline Fail / Pass
 
+   ![email failure and success](https:///home/ali-fareed/Ali/Devops/Jenkins/Images/jenkins shared library.png)
 
 # Mini_Projects
 
