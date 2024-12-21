@@ -39,12 +39,19 @@ and deployment. Jenkins allows you to define and manage these stages, ensuring t
 
 # Jenkins Setup on VM
 
-  ### Install Java
+### Install Java
   
-  sudo apt update
-  sudo apt install
-  openjdk-17-jre
-  java -version
+    sudo apt update
+    sudo apt install
+    openjdk-17-jre
+    java -version
+
+# Monitoring and Logging in Docker
+- We can monitor the docker continer with the following command, the output will redirect to a nohup file
+
+### Commands use to create nohup file
+    sudo apt update
+    sudo apt install openjdk-17-jre
 
 # Jenkins UI / Dashboard / Jobs
 - Paragraph_1.
