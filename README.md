@@ -47,8 +47,7 @@ and deployment. Jenkins allows you to define and manage these stages, ensuring t
 ### Install Java
   
     sudo apt update
-    sudo apt install
-    openjdk-17-jre
+    sudo apt install openjdk-17-jre
     java -version
 
 ### Install Jenkins
