@@ -37,7 +37,10 @@ that applications can be released at any time.
 of multiple stages, each representing a specific task or set of tasks. Common stages include code compilation, unit testing, code analysis, artifact creation,
 and deployment. Jenkins allows you to define and manage these stages, ensuring that the entire process is automated, consistent, and reproducible.
 
- ![What is jenkins](https://github.com/AliFareed0009/Jenkins-for-DevOps/blob/6d123048eb11b7400fec0843f9b673432b0f9395/Images/what-is-jenkins.webp)
+
+# Jenkins Architecture : 
+
+ ![Jenkins Architecture](https://github.com/AliFareed0009/Jenkins-for-DevOps/blob/6d123048eb11b7400fec0843f9b673432b0f9395/Images/what-is-jenkins.webp)
 
 # Jenkins Setup on VM
 
@@ -142,17 +145,10 @@ Global roles → add aashish and naba user to the global roles and assign the em
 
    ![email failure and success](https://github.com/AliFareed0009/Jenkins-for-DevOps/blob/6d123048eb11b7400fec0843f9b673432b0f9395/Images/email%20faliure.png)
 
-# Mini_Projects
-
-- Project_1 : Java_Sample_App
-- Project_2 : Python_Flask_App
-- Project_3 : React_Web_App
-- Project_4 : Two-Tier_Flask_App
-
 # Mega_Projects
 
-- CI/CD Project with Kubernetes, ArgoCD, Prometheus
-- Deploying a Web Notes Application with Django, Nginx and MySQL
+- CI/CD Project with Kubernetes, ArgoCD, Prometheus.
+- DevSecOps with OWSAP, Trivy, Sonarqube.
 
 
 
