@@ -12,8 +12,8 @@ This Repository is made to practice Jenkins to implement daily life scenarios of
 
 | Folder Name | Technologies     | Useages & Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `Java_Sample_App` | `Java Application` | A simple application which shows current time |
-| `Python_Flask_App` | `Python Application` | A simple application which show health of the server |
+| `Images` | `Repo Images` | Images used in repository |
+| `shared_library` | `Jenkins Shared Library` | Simple Files for jenkins shared library |
 
 
  ![Jenkins Cycle](https://github.com/AliFareed0009/Jenkins-for-DevOps/blob/6d123048eb11b7400fec0843f9b673432b0f9395/Images/jenkins%20cycle.png)
