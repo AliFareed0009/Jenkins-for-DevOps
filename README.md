@@ -16,7 +16,7 @@ This Repository is made to practice Jenkins to implement daily life scenarios of
 | `Python_Flask_App` | `Python Application` | A simple application which show health of the server |
 
 
- ![Jenkins Cycle](https://github.com/AliFareed0009/Jenkins-for-DevOps/blob/81f57bc114d9e76d65674ce7f78e2f028d9cd78a/Images/jenkins%20cycle.png)
+ ![Jenkins Cycle](https://github.com/AliFareed0009/Jenkins-for-DevOps/blob/6d123048eb11b7400fec0843f9b673432b0f9395/Images/jenkins%20cycle.png)
 
 
 # The Following are topics covered in this Repository
@@ -36,6 +36,8 @@ that applications can be released at any time.
 - A CI/CD pipeline is a series of automated steps that code goes through from version control to production deployment. It consists
 of multiple stages, each representing a specific task or set of tasks. Common stages include code compilation, unit testing, code analysis, artifact creation,
 and deployment. Jenkins allows you to define and manage these stages, ensuring that the entire process is automated, consistent, and reproducible.
+
+ ![What is jenkins](https://github.com/AliFareed0009/Jenkins-for-DevOps/blob/6d123048eb11b7400fec0843f9b673432b0f9395/Images/what-is-jenkins.webp)
 
 # Jenkins Setup on VM
 
@@ -96,11 +98,11 @@ and deployment. Jenkins allows you to define and manage these stages, ensuring t
 
 - Download and install Role-based Authorization Strategy plugin: goto Manage Jenkins → Plugins → Available plugins and search for Role in the search box and in the dropdown list, select Role-based Authentication Strategy plugin, proceed by clicking on Install without restart.
 
-  ![user role 2](https:///home/ali-fareed/Ali/Devops/Jenkins/Images/jenkins shared library.png)
+  ![user role 2](https://github.com/AliFareed0009/Jenkins-for-DevOps/blob/6d123048eb11b7400fec0843f9b673432b0f9395/Images/User%20roles/2.%20role%20user.webp)
 
 - Change authorization to Role-based strategy: After successful installation of plugin, Go to Manage Jenkins → Security and select the Role-Based Strategy under the Authorization section, click on Apply and Save.
 
-  ![user role 3](https:///home/ali-fareed/Ali/Devops/Jenkins/Images/jenkins shared library.png)
+  ![user role 3](https://github.com/AliFareed0009/Jenkins-for-DevOps/blob/6d123048eb11b7400fec0843f9b673432b0f9395/Images/User%20roles/3.%20role%20user.webp)
 
 - Creating roles and granting privileges to role: go to Manage Jenkins → Manage and Assign Roles
   There are three options:
@@ -115,31 +117,30 @@ and deployment. Jenkins allows you to define and manage these stages, ensuring t
 
 - Global roles → provide authorization and access to the global level. Let’s create employee role and assign access like read, view, etc.
 
-  ![user role 4](https:///home/ali-fareed/Ali/Devops/Jenkins/Images/jenkins shared library.png)
+  ![user role 4](https://github.com/AliFareed0009/Jenkins-for-DevOps/blob/6d123048eb11b7400fec0843f9b673432b0f9395/Images/User%20roles/4.%20user%20role.webp)
 
 - Item roles → provides roles specific to a project. For a particular project, you can assign permissions like build, create, delete, configure. Let’s create developer role and add pattern like dev.* ie. project name starting from dev.
 
- ![user role 5](https:///home/ali-fareed/Ali/Devops/Jenkins/Images/jenkins shared library.png)
+ ![user role 5](https://github.com/AliFareed0009/Jenkins-for-DevOps/blob/6d123048eb11b7400fec0843f9b673432b0f9395/Images/User%20roles/5.%20role%20user.webp)
 
 - Assigning role to users: go to Manage Jenkins → Manage and Assign Roles → Assign Roles
 
 Global roles → add aashish and naba user to the global roles and assign the employee role to both users.
 
-  ![user role 6](https:///home/ali-fareed/Ali/Devops/Jenkins/Images/jenkins shared library.png)
-
+  ![user role 6](https://github.com/AliFareed0009/Jenkins-for-DevOps/blob/6d123048eb11b7400fec0843f9b673432b0f9395/Images/User%20roles/6.%20role%20user.webp)
 
 - Project roles → add aashish and naba user to the item roles and assign aashish as a developer and naba as a qa
 
-  ![user role 7](https:///home/ali-fareed/Ali/Devops/Jenkins/Images/jenkins shared library.png)
+  ![user role 7](https://github.com/AliFareed0009/Jenkins-for-DevOps/blob/6d123048eb11b7400fec0843f9b673432b0f9395/Images/User%20roles/7.%20role%20user.webp)
 
 - Login as user with assigned role. For any new user created without being assigned a role, access denied message should be shown.
 
-  ![user role 8](https:///home/ali-fareed/Ali/Devops/Jenkins/Images/jenkins shared library.png)
+  ![user role 8](https://github.com/AliFareed0009/Jenkins-for-DevOps/blob/6d123048eb11b7400fec0843f9b673432b0f9395/Images/User%20roles/8.%20role%20user.webp)
 
 
 # Email Notification on Pipeline Fail / Pass
 
-   ![email failure and success](https:///home/ali-fareed/Ali/Devops/Jenkins/Images/jenkins shared library.png)
+   ![email failure and success](https://github.com/AliFareed0009/Jenkins-for-DevOps/blob/6d123048eb11b7400fec0843f9b673432b0f9395/Images/email%20faliure.png)
 
 # Mini_Projects
 
