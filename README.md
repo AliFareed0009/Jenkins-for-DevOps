@@ -88,8 +88,34 @@ and deployment. Jenkins allows you to define and manage these stages, ensuring t
 
 # Shared Libraries
 - Pipeline has support for creating "Shared Libraries" which can be defined in external source control repositories and loaded into existing Pipelines.
+- Shared libraries in Jenkins Pipelines are reusable pieces of code that can be organized into functions and classes.
+- These libraries allow you to encapsulate common logic, making it easier to maintain and share across multiple pipelines and projects.
+- Shared library must be inside the **vars** directory in your github repository
+- Shared library uses **groovy** syntax and file name ends with **.groovy** extension. 
 
  ![Jenkins Shared library](https://github.com/AliFareed0009/Jenkins-for-DevOps/blob/81f57bc114d9e76d65674ce7f78e2f028d9cd78a/Images/jenkins%20shared%20library.png)
+
+ ## How to create and use shared library in Jenkins.
+
+### How to create Shared library
+- Login to your Jenkins dashboard. <a href="">Jenkins Installation</a>
+- Go to **Manage Jenkins** --> **System** and search for **Global Trusted Pipeline Libraries**.
+<img src="https://github.com/AliFareed0009/Jenkins-for-DevOps/blob/535c339a5f67c02079b50b350000d72e38241011/Images/Sharedlib-config-1.png" />
+
+  **Name:** Shared <br>
+  **Default version:** \<branch name><br>
+  **Project repository:** https://github.com/DevMadhup/Jenkins_SharedLib.git <br>
+****
+<img src="https://github.com/AliFareed0009/Jenkins-for-DevOps/blob/535c339a5f67c02079b50b350000d72e38241011/Images/Sharedlib-config-2.png" />
+
+#
+### How to use it in Jenkins pipeline
+- Go to your declarative pipeline
+- Add **@Library('Shared') _** at the very first line of your jenkins pipeline.
+<img src="https://github.com/AliFareed0009/Jenkins-for-DevOps/blob/535c339a5f67c02079b50b350000d72e38241011/Images/shared-lib-in-pipeline.png" />
+
+**Note:** @Library() _ is the syntax to use shared library.
+
 
 # User Management in Jenkins ( Role Based )
 - By default, when you create a user in Jenkins, it can access almost everything. In this guide, we will cover how you can create fine-grained roles for proper access control to Jenkins Server. To manage users and roles, you need to have the necessary administrative privileges. Here are the steps to manage users and roles in Jenkins:
