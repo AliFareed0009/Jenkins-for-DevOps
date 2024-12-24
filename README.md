@@ -10,9 +10,10 @@ This Repository is made to practice Jenkins to implement daily life scenarios of
 
 #### 
 
-| Folder Name | Technologies     | Useages & Description                       |
+| Folder Name | Technologies     | Useages & Description    |
 | :-------- | :------- | :-------------------------------- |
 | `Images` | `Repo Images` | Images used in repository |
+| `Projects` | `DevSecOps and Two Tier-Project` | A DevSecOps CI/CD Project and 2-Tier Notes Project |
 | `shared_library` | `Jenkins Shared Library` | Simple Files for jenkins shared library |
 
 
@@ -172,8 +173,7 @@ Global roles → add aashish and naba user to the global roles and assign the em
 
 # Mega_Projects
 
-- CI/CD Project with Kubernetes, ArgoCD, Prometheus.
-- DevSecOps with OWSAP, Trivy, Sonarqube.
+- DevSecOps CI/CD Project with Kubernetes, ArgoCD, OWSAP, Trivy, Sonarqube and Prometheus.
 
 
 
